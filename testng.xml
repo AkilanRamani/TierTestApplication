@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Tier">
+	<listeners>
+		<listener class-name="com.Listeners.MyListeners.java"/>
+		
+	</listeners>
+  <test thread-count="5" name="Tier Test">
+    <classes>
+      <class name="Automation.LoginTest"/>
+      <class name="Automation.HomeTest"/>
+      <class name="Automation.TierTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 
